@@ -5,10 +5,10 @@ Pixel Pomo is a beautiful, modern Pomodoro timer application built with Flutter.
 ## 📸 App Screenshots
 
 ### Images -
-![image alt](https://github.com/Dhiman-Ajay/PixelPomo/blob/master/timer.jpg)
-~ ![image alt](https://github.com/Dhiman-Ajay/PixelPomo/blob/master/grid.jpg)
-![image alt](https://github.com/Dhiman-Ajay/PixelPomo/blob/master/stats.jpg)
-~ ![image alt](https://github.com/Dhiman-Ajay/PixelPomo/blob/master/gallery.jpg)
+<img src="https://github.com/Dhiman-Ajay/PixelPomo/blob/master/timer.jpg" width="300">
+<img src="https://github.com/Dhiman-Ajay/PixelPomo/blob/master/grid.jpg" width="300">
+<img src="https://github.com/Dhiman-Ajay/PixelPomo/blob/master/stats.jpg" width="300">
+<img src="https://github.com/Dhiman-Ajay/PixelPomo/blob/master/gallery.jpg" width="300">
 
 ## ✨ Features
 
