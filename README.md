@@ -1,16 +1,59 @@
-# pixelpomo
+## Pixel Pomo - A Gamified Pomodoro Timer
 
-A new Flutter project.
+Pixel Pomo is a beautiful, modern Pomodoro timer application built with Flutter. It's designed to help users stay focused and productive by gamifying the process of completing work sessions. For every Pomodoro you complete, you unlock a pixel in a collective piece of art, slowly revealing a masterpiece and adding it to your gallery.
 
-## Getting Started
+## 📸 App Screenshots
 
-This project is a starting point for a Flutter application.
+### Images -
+![image alt](https://github.com/Dhiman-Ajay/PixelPomo/blob/master/timer.jpg)
+![image alt](https://github.com/Dhiman-Ajay/PixelPomo/blob/master/grid.jpg)
+![image alt](https://github.com/Dhiman-Ajay/PixelPomo/blob/master/stats.jpg)
+![image alt](https://github.com/Dhiman-Ajay/PixelPomo/blob/master/gallery.jpg)
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Core Pomodoro Timer: A clean timer with configurable durations for focus and break sessions.
+- Automatic Transitions: The timer automatically switches from work to break and back, keeping you in the flow.
+- Pixel Art Gamification: Stay motivated by collectively unlocking pixel art masterpieces. Each completed Pomodoro reveals another piece of the puzzle.
+- Art Gallery: A history of all your completed masterpieces to visually track your accomplishments.
+- Productivity Stats: See your total completed sessions and focus time at a glance.
+- Data Persistence: Your progress is always saved! The app remembers your completed art, stats, and current grid progress even after you close it.
+- Beautiful, Custom UI: A sleek, modern interface with a custom dark theme and elegant animations.
+- Dynamic Color-Coding: The UI dynamically changes color to clearly distinguish between work (red) and break (teal) sessions.
+- Full User Control: Pause, reset, and configure timers to fit your personal workflow. A full data-reset option is included for a fresh start.
+<br>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🛠️ Tech Stack & Implementation
+This project was built to showcase a variety of core Flutter development concepts:
+
+Framework: Flutter
+Language: Dart
+State Management: Provider - For managing and distributing application state efficiently and cleanly across the widget tree.
+Data Persistence: shared_preferences - For saving user progress, stats, and settings locally on the device.
+UI & Animation:
+Custom-themed Material Design widgets.
+shimmer package for creating an elegant, rewarding animation on completed art tiles.
+percent_indicator for the timer's progress bar.
+Audio: audioplayers for providing satisfying audio feedback upon session completion.
+App Icons: flutter_launcher_icons for generating all necessary app icon sizes for Android and iOS from a single source.
+<br>
+
+## 🚀 How to Run
+To run this project locally, follow these steps:
+- Clone the repository:
+git clone https://github.com/YOUR_USERNAME/pixelpomo.git
+- cd pixelpomo
+- Install dependencies: flutter pub get
+- Run the app:
+- flutter run
+<br>
+
+
+## Future Improvements
+- Implement a fully functional historical stats system to track productivity over weeks and months.
+- Add a "Day Streak" feature to motivate daily use.
+- Introduce an "Achievements" system for completing certain milestones.
+- Add more pixel art collections and allow users to choose which one to work on.
+
+  
